@@ -11,6 +11,10 @@ Nach jeder Berechnung wird Ist mit Soll verglichen. Bei einer Übereinstimmung w
 
 Am Ende wird die Lösung dann schritt für Schritt ausgegeben.
 
+Verwendung: einfach in der index.php den entsprechenden include für das board_x.php aktivieren und laufen lassen.
+
+Getestet mit PHP 8.1
+
 That's it :-)
 
 Todo:
