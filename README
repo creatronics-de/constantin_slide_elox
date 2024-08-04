@@ -1,0 +1,21 @@
+Eines der schwersten Puzzles die ich besitze ist das Schiebepuzzle von Jean Claude Constantin.
+Die einfachste Stufe würde ich auf einer Skala von 1-10 mit einer satten 8 einstufen. Danach wird es nur noch schwerer.
+
+Da es mich interessiert hat, wie schwer das Puzzle tatsächlich ist, habe ich im Urlaub mal eben einen kleinen Löser geschrieben (nicht schön, aber er funktioniert ;-)
+
+Wie?
+Nun, basierend auf der aktuellen Lage auf dem Board, werden alle möglichen Bewegungen berechnet. Diese werden dann wieder als Basis für die nächsten Berechnungen verwendet.
+Jede Konstellation auf dem Board  bekommt einen eindeutigen "hash". Wird eine Konstellation gefunden die bereits früher berechnet wurde, wird der Pfad nicht weiter verfolgt.
+Nach jeder Berechnung wird Ist mit Soll verglichen. Bei einer Übereinstimmung wird abgebrochen.
+über das jeweils gesicherte Elternelement kann nun der kürzeste Pfad zurückverfolgt werden.
+
+Am Ende wird die Lösung dann schritt für Schritt ausgegeben.
+
+That's it :-)
+
+Todo:
+Es sollte relativ einfach möglich sein, das Ganze umzudrehen um so weitere Ausgangspositionen zu finden. Vielleicht im nächsten Urlaub....
+
+Marke Constantin
+Verweis P01-E04-B04-18
+EAN13 2470000000764
